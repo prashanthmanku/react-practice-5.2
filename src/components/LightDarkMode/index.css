@@ -1,0 +1,44 @@
+/* Write your CSS here */
+
+.bg-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  padding: 30px;
+  width: 90%;
+  max-width: 350px;
+  border-radius: 10px;
+  text-align: center;
+}
+.card-dark-bg {
+  background-color: #000000;
+}
+.card-light-bg {
+  background-color: #ffffff;
+  border: 2px solid #000000;
+}
+.heading-dark {
+  color: #ffffff;
+}
+.heading-light {
+  color: #ffffff;
+}
+h1 {
+  font-size: 25px;
+}
+.heading-light {
+  color: #000000;
+}
+button {
+  width: 110px;
+  height: 40px;
+  color: #000000;
+  border-radius: 9px;
+  /* border: none; */
+}
+.button {
+  border: none;
+}
